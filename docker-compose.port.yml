@@ -1,0 +1,4 @@
+services:
+  home-page:
+    ports: 
+      - 8080:80

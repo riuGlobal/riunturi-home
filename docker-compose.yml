@@ -1,0 +1,7 @@
+version: '3'
+
+services: 
+  home-page:
+    image: nginx:1.21.0-alpine
+    volumes:
+      - ${PWD}/html:/usr/share/nginx/html
