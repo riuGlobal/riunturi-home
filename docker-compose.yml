@@ -2,7 +2,7 @@ version: '3'
 
 services: 
   home-page:
-  container_name: ${PAGE_CONTAINER_NAME:-riunturi-home}
+    container_name: ${PAGE_CONTAINER_NAME:-riunturi-home}
     image: nginx:1.21.0-alpine
     volumes:
       - ${PWD}/html:/usr/share/nginx/html
