@@ -1,0 +1,3 @@
+services:
+  home-page:
+    restart: unless-stopped
